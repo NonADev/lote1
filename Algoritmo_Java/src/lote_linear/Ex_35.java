@@ -15,7 +15,7 @@ public class Ex_35 {
 		}
 		double cont=0;
 		for(int i=me+1;i<ma;i++) {
-			if(!(i%2==0)) System.out.println(cont+=i);
+			if(!(i%2==0)) cont+=i;
 		}
 		System.out.println(cont);
 	}

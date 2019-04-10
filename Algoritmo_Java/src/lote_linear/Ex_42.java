@@ -7,5 +7,6 @@ public class Ex_42 {
 			soma+=i/j;
 			System.out.println(i+" "+j);
 		}
+		System.out.println(soma);
 	}
 }
