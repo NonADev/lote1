@@ -1,4 +1,4 @@
-package lote_linear;
+package lote_modular;
 
 public class Ex_25 {
 	public static int tPassado;

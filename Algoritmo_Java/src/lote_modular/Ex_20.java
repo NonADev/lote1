@@ -1,15 +1,18 @@
-package lote_linear;
+package lote_modular;
 
 import java.util.Scanner;
 
 public class Ex_20 {
+	public static int a, b, c;
 	private static int d;
 	public static void calc_d(){
 		d=(b*b)-(4*a*c);
 	}
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		int a = s.nextInt(), b = s.nextInt(), c = s.nextInt();
+		a = s.nextInt(); 
+		b = s.nextInt();
+		c = s.nextInt();
 		calc_d();
 		double x1, x2;
 		if(d<0) {

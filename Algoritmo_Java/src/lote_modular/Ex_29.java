@@ -1,4 +1,4 @@
-package lote_linear;
+package lote_modular;
 
 import java.util.Scanner;
 
